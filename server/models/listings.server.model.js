@@ -36,5 +36,5 @@ listingSchema.pre('save', function(next) {
 /* Use your schema to instantiate a Mongoose model */
 var Listing = mongoose.model('Listing', listingSchema);
 
-/* Export the model to make it avaiable to other parts of your Node application */
+/* Export the model to make it available to other parts of your Node application */
 module.exports = Listing;
